@@ -49,6 +49,7 @@ const customers = [{
 class App extends React.Component {
   render() {
     const { classes } = this.props;
+    
     return (
       <Paper className={classes.root}>
         <Table className={classes.table}>
